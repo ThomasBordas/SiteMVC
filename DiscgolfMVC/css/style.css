@@ -1,0 +1,567 @@
+/* -----------------------GLOBAL------------------------ */
+
+* p {
+    color: #1fbee9;
+    font-size: large;
+}
+
+.hrSeparator {
+    background-color: #f9f924;
+    width: 30%;
+}
+
+
+/* --------------------page d'accueil-------------------- */
+
+#accueilLeft h1 {
+    color: #1fbee9;
+    text-align: center;
+    text-decoration: underline #f9f924 2px;
+}
+
+#accueilLeft h2 {
+    color: #1fbee9;
+}
+
+#accueilLeft p {
+    color: #1fbee9;
+}
+
+#hrLeft {
+    background-color: #1fbee9;
+    width: 80%;
+}
+
+#accueilRight {
+    text-align: center;
+}
+
+#accueilRight h2 {
+    color: #1fbee9;
+}
+
+#accueilRight h3 {
+    color: #f9f924;
+}
+
+#accueilRight p {
+    color: #1fbee9;
+}
+
+#hrRight {
+    background-color: #1fbee9;
+}
+
+
+/* --------------------Page Présentation------------------- */
+
+
+/* Image responsive */
+
+#videoPresentation {
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+#videoPresentation iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* -----*/
+
+#hrPresentation {
+    background-color: #f9f924;
+    height: 2px;
+    width: 30%;
+}
+
+.presentation h2 {
+    color: #1fbee9;
+    text-align: center;
+}
+
+#atlas {
+    text-align: center;
+}
+
+#imgAtlas {
+    width: 50%;
+    height: auto;
+}
+
+
+/* -----------------------Page Règles---------------------- */
+
+.regles h1 {
+    color: #1fbee9;
+    text-align: center;
+    text-decoration: underline #1fbee9;
+}
+
+.regles ul {
+    color: #1fbee9;
+    list-style: none
+}
+
+#stRegle {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.regles li {
+    font-size: large;
+}
+
+
+/* modification des points de la liste*/
+
+.regles li::before {
+    content: "\f51f";
+    font-family: FontAwesome;
+    font-size: smaller;
+    color: #f9f924;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+
+/* ----- */
+
+.titreRegle2 {
+    color: #f9f924;
+    text-decoration: underline #1fbee9;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.regleOfficielle {
+    text-align: center;
+}
+
+
+/* ----------------------Page Parcours--------------------- */
+
+.parcours h2 {
+    text-align: center;
+    text-decoration: underline #1fbee9;
+    color: #1fbee9;
+}
+
+.parcoursProxi {
+    width: 100%;
+}
+
+.parcoursAdresse {
+    text-align: center;
+}
+
+.parcoursBis {
+    width: 70%;
+}
+
+.parcoursInfo h4 {
+    text-align: center;
+    color: #1fbee9;
+}
+
+.parcoursInfo ul {
+    color: #1fbee9;
+    list-style: none;
+}
+
+.parcoursInfo ul span {
+    text-decoration: underline #f9f924;
+}
+
+.parcoursInfo li::before {
+    content: "\f51f";
+    font-family: FontAwesome;
+    font-size: smaller;
+    color: #f9f924;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.imgParcours img {
+    width: 250px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+#imgThenon img {
+    width: 173px;
+    margin: 10px;
+}
+
+#conditionsInstall p {
+    text-align: center;
+}
+
+#conditionsInstall span {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+#conditionsInstall table {
+    border: 15px ridge rgb(163, 163, 163);
+    background: linear-gradient(126deg, rgba(31, 190, 233, 1) 5%, rgba(249, 249, 36, 1) 25%, rgba(31, 190, 233, 1) 50%, rgba(249, 249, 36, 1) 78%, rgba(31, 190, 233, 1) 100%);
+}
+
+#mapParcoursFR {
+    text-align: center;
+}
+
+
+/* ----------------------Page Equipement--------------------- */
+
+.equipement h1 {
+    color: #1fbee9;
+    text-align: center;
+    text-decoration: underline #1fbee9;
+}
+
+.equipement h3 {
+    color: #1fbee9;
+    text-align: center;
+    text-decoration: underline #f9f924;
+}
+
+.equipement p {
+    text-align: center;
+}
+
+.modeleDisques ul {
+    list-style: none;
+}
+
+.modeleDisques li::before {
+    content: "\f51f";
+    font-family: FontAwesome;
+    font-size: smaller;
+    color: #f9f924;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.modeleDisques {
+    color: #1fbee9;
+}
+
+.imgCorbeilles img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.blockMateriel {
+    border: solid #f9f924 3px;
+}
+
+.marqueurDef {
+    text-align: center;
+    color: #1fbee9;
+}
+
+.sacsDef {
+    text-align: center;
+    color: #1fbee9;
+}
+
+
+/* ---------------------Page Achats/Location-------------------- */
+
+.achatLoc h2 {
+    color: #1fbee9;
+    text-align: center;
+    text-decoration: underline #f9f924;
+}
+
+.achatWhere h4 {
+    color: #1fbee9;
+    text-decoration: underline #1fbee9;
+}
+
+#achatClub h4 {
+    color: #1fbee9;
+    text-decoration: underline #1fbee9;
+}
+
+.achatImg img {
+    width: 380px;
+    height: 120px;
+}
+
+
+/* ----------------------Page Infos/Adhésion-------------------- */
+
+#imgInfo {
+    width: 450px;
+    height: auto;
+}
+
+.adhesionPDF {
+    text-align: center;
+}
+
+
+/* --------------------------Page Forum------------------------ */
+
+
+/* ------------------Page Parcours des Perrières--------------- */
+
+.parcoursPerrieres h1 {
+    color: #1fbee9;
+    text-align: center;
+    text-decoration: underline #f9f924;
+}
+
+.parcoursPerrieres h3 {
+    color: #1fbee9;
+    text-decoration: underline #f9f924;
+}
+
+
+/* --------------------Page Parcours en images----------------- */
+
+.parcoursImage h1 {
+    color: #1fbee9;
+    text-align: center;
+    text-decoration: underline #f9f924;
+}
+
+#videoParcours {
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+#videoParcours iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.btnPhotos {
+    padding: 10%;
+    border-radius: 20px;
+    margin: 0px;
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline 2px;
+    font-weight: bolder;
+    font-size: larger;
+    background: radial-gradient(circle, rgba(249, 249, 36, 1) 0%, rgba(31, 190, 233, 1) 33%, rgba(29, 29, 29, 1) 61%);
+}
+
+
+/*== Fenêtres modales == */
+
+.modC {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: space-between;
+}
+
+.modCMess {
+    background-color: #1d1d1d;
+    border-radius: 15px;
+    border: solid #f9f924 3px;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 15%;
+    padding-left: 3%;
+}
+
+.modCMess12 {
+    background-color: #1d1d1d;
+    border-radius: 15px;
+    border: solid #f9f924 3px;
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-top: 15%;
+    padding-left: 3%;
+    color: #1fbee9;
+}
+
+.modCMess3Pic {
+    background-color: #1d1d1d;
+    border-radius: 15px;
+    border: solid #f9f924 3px;
+    width: 45%;
+    height: auto;
+    margin: auto;
+    margin-top: 15%;
+    padding-left: 5%;
+}
+
+.modCMessLarge {
+    background-color: #1d1d1d;
+    border-radius: 15px;
+    border: solid #f9f924 3px;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 15%;
+    padding-left: 3%;
+}
+
+#phRight {
+    margin-right: 5%;
+}
+
+.modTitre {
+    text-align: center;
+    color: #1fbee9;
+    text-decoration: underline #f9f924;
+}
+
+.modClose {
+    text-align: right;
+}
+
+.modFermer {
+    border-radius: 10px;
+    background-color: #1fbee9;
+    color: #f9f924;
+}
+
+
+/*== Fenêtres modales END == */
+
+
+/* --------------------Page Infos et calendrier----------------- */
+
+.infosCalendrier ul {
+    color: #1fbee9;
+    list-style: none
+}
+
+.infosCalendrier li::before {
+    content: "\f51f";
+    font-family: FontAwesome;
+    font-size: smaller;
+    color: #f9f924;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.infosCalendrier h3 {
+    color: #1fbee9;
+    text-align: center;
+    text-decoration: underline #f9f924;
+}
+
+
+/* --------------------Page Challenge Correzien----------------- */
+
+.challengeCorrezien h1 {
+    text-align: center;
+    color: #1fbee9;
+    text-decoration: underline #f9f924;
+}
+
+#divTable {
+    background-color: white;
+}
+
+#titreTab {
+    text-align: center;
+    color: #1fbee9;
+    text-decoration: underline #f9f924;
+}
+
+#tabChallenge {
+    text-align: center;
+}
+
+#labelCompet {
+    color: #1fbee9;
+}
+
+#buttonCompet {
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    color: #1fbee9;
+    border: solid #1fbee9 2px;
+}
+
+#buttonCompet:hover {
+    background-color: #1fbee9;
+    color: #f9f924;
+}
+
+
+/* --------------------Page Inscription / Connexion----------------- */
+
+.titreCoIns {
+    color: #1fbee9;
+    text-decoration: underline #f9f924 2px;
+}
+
+.fa-info-circle {
+    color: #f9f924;
+    font-size: larger;
+}
+
+#h1Co {
+    color: #1fbee9;
+    text-align: center;
+    font-style: italic;
+}
+
+#h1Ins {
+    color: #1fbee9;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* ---------------------------Page Discussion------------------------ */
+
+#h2Discussion {
+    color: #1fbee9;
+    font-style: italic;
+    text-align: center;
+    border: solid #f9f924 2px;
+    border-radius: 30px;
+}
+
+#pDiscussion {
+    text-align: center;
+}
+
+#discussion {
+    height: 78vh;
+    box-shadow: 0 0 5px grey;
+    overflow-y: scroll;
+}
+
+.saisie {
+    height: 20vh;
+}
